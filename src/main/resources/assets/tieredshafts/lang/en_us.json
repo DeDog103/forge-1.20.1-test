@@ -1,4 +1,16 @@
 {
   "item.tieredshafts.doge": "Doge",
+  "item.tieredshafts.metal_detector": "Metal Detector",
+  "item.tieredshafts.strawberry": "Strawberry",
+  "item.tieredshafts.pinecone": "Pinecone",
+
+
+  "block.tieredshafts.doge_block": "Doge Block",
+  "block.tieredshafts.doge_ore": "Doge Ore",
+  "block.tieredshafts.sound_block": "Sound Block",
+
+  "tooltip.tieredshafts.metal_detector.tooltip": "Finds valuable ores(specifically only iron for now) underground!",
+
   "creativetab.tiered_shafts_tab": "Tiered Shafts"
+
 }

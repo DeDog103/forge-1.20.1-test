@@ -1,6 +1,7 @@
 package net.dedog103.tieredshafts;
 
 import com.mojang.logging.LogUtils;
+import net.dedog103.tieredshafts.block.ModBlocks;
 import net.dedog103.tieredshafts.item.ModCreativeModeTabs;
 import net.dedog103.tieredshafts.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,6 +32,7 @@ public class TieredShafts
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
